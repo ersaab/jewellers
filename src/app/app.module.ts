@@ -11,7 +11,7 @@ import { QuickQuoteComponent } from './shared/quick-quote/quick-quote.component'
   declarations: [
     AppComponent,
     KIRPAComponent,
-    QuickQuoteComponent,
+    QuickQuoteComponent
   ],
   imports: [
     BrowserModule,
