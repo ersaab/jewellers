@@ -10,15 +10,15 @@ import { FooterComponent } from './Dashboard/footer/footer.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
 import { NavbarComponent } from './Dashboard/navbar/navbar.component';
 
-import { CustomerLogbookComponent } from './Customer/logbook/customer-logbook/customer-logbook.component';
-import { CustomerLogbookAddlogComponent } from './Customer/logbook/customer-logbook-addlog/customer-logbook-addlog.component';
-import { CustomerLogbookUpdatelogComponent } from './Customer/logbook/customer-logbook-updatelog/customer-logbook-updatelog.component';
-import { CustomerLogbookDeletelogComponent } from './Customer/logbook/customer-logbook-deletelog/customer-logbook-deletelog.component';
+import { CustomerLogbookComponent } from './Customer/Logbook/customer-logbook/customer-logbook.component';
+import { CustomerLogbookAddlogComponent } from './Customer/Logbook/customer-logbook-addlog/customer-logbook-addlog.component';
+import { CustomerLogbookUpdatelogComponent } from './Customer/Logbook/customer-logbook-updatelog/customer-logbook-updatelog.component';
+import { CustomerLogbookDeletelogComponent } from './Customer/Logbook/customer-logbook-deletelog/customer-logbook-deletelog.component';
 
-import { ManufacturerProfileComponent } from './manufacturer/profile/manufacturer-profile/manufacturer-profile.component';
-import { ManufacturerProfileEditComponent } from './manufacturer/profile/manufacturer-profile-edit/manufacturer-profile-edit.component';
-import { ManufacturerProfileAddComponent } from './manufacturer/profile/manufacturer-profile-add/manufacturer-profile-add.component';
-import { ManufacturerProfileDeleteComponent } from './manufacturer/profile/manufacturer-profile-delete/manufacturer-profile-delete.component';
+import { ManufacturerProfileComponent } from './Manufacturer/Profile/manufacturer-profile/manufacturer-profile.component';
+import { ManufacturerProfileEditComponent } from './Manufacturer/Profile/manufacturer-profile-edit/manufacturer-profile-edit.component';
+import { ManufacturerProfileAddComponent } from './Manufacturer/Profile/manufacturer-profile-add/manufacturer-profile-add.component';
+import { ManufacturerProfileDeleteComponent } from './Manufacturer/Profile/manufacturer-profile-delete/manufacturer-profile-delete.component';
 
 import { CustomerProfileComponent } from './Customer/Profile/customer-profile/customer-profile.component';
 import { CustomerProfileAddComponent } from './Customer/Profile/customer-profile-add/customer-profile-add.component';
@@ -29,9 +29,9 @@ import { ManufacturerLogbookComponent } from './Manufacturer/Logbook/manufacture
 import { ManufacturerLogbookAddComponent } from './Manufacturer/Logbook/manufacturer-logbook-add/manufacturer-logbook-add.component';
 import { ManufacturerLogbookEditComponent } from './Manufacturer/Logbook/manufacturer-logbook-edit/manufacturer-logbook-edit.component';
 import { ManufacturerLogbookDeleteComponent } from './Manufacturer/Logbook/manufacturer-logbook-delete/manufacturer-logbook-delete.component';
-import { QuickQuoteComponent } from './shared/quick-quote/quick-quote.component';
-import { ManuListComponent } from './manufacturer/manu-list/manu-list.component';
-import { CustListComponent } from './customer/cust-list/cust-list.component';
+import { QuickQuoteComponent } from './Shared/quick-quote/quick-quote.component';
+import { ManuListComponent } from './Manufacturer/manu-list/manu-list.component';
+import { CustListComponent } from './Customer/cust-list/cust-list.component';
 
 @NgModule({
   declarations: [

@@ -5,6 +5,7 @@ import { ManuListComponent } from './Manufacturer/manu-list/manu-list.component'
 import { CustListComponent } from './Customer/cust-list/cust-list.component';
 
 
+
 const routes: Routes = [
   { path: "", component: QuickQuoteComponent },
   { path: "Manu", component: ManuListComponent },
