@@ -3,8 +3,8 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-quick-quote',
-  templateUrl: '../quick-quote.component.html',
-  styleUrls: ['../quick-quote.component.css']
+  templateUrl: './quick-quote.component.html',
+  styleUrls: ['./quick-quote.component.css']
 })
 export class QuickQuoteComponent implements OnInit {
   commoName;
