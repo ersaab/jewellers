@@ -29,7 +29,7 @@ import { ManufacturerLogbookComponent } from './Manufacturer/Logbook/manufacture
 import { ManufacturerLogbookAddComponent } from './Manufacturer/Logbook/manufacturer-logbook-add/manufacturer-logbook-add.component';
 import { ManufacturerLogbookEditComponent } from './Manufacturer/Logbook/manufacturer-logbook-edit/manufacturer-logbook-edit.component';
 import { ManufacturerLogbookDeleteComponent } from './Manufacturer/Logbook/manufacturer-logbook-delete/manufacturer-logbook-delete.component';
-import { QuickQuoteComponent } from '../shared/quick-quote/quick-quote.component';
+import { QuickQuoteComponent } from './shared/quick-quote/quick-quote.component';
 import { ManuListComponent } from './manufacturer/manu-list/manu-list.component';
 import { CustListComponent } from './customer/cust-list/cust-list.component';
 
