@@ -6,9 +6,7 @@ import { CustListComponent } from './customer/cust-list/cust-list.component';
 
 
 const routes: Routes = [
-  { path: "", component: QuickQuoteComponent },
-  { path: "Manu", component: ManuListComponent },
-  { path: "Cust", component: CustListComponent }
+  { path: "", component: QuickQuoteComponent }
 ];
 
 @NgModule({
