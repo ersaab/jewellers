@@ -1,5 +1,34 @@
-<h1>KIRPA MALAK D</h1>
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container-fluid">
+<div class="Kirpa row col-sm-12">
+  <app-kirpa></app-kirpa>
+</div>
+
+<div class="row navi">
+  <div class=" navi col-sm-12">
+    <app-navbar></app-navbar>
+  </div>
+</div>
+  
+<div class="live row col-sm-12">
+  <div class="col-sm-6">
+    <h4>example@xyz.coms</h4>
+  </div>
+  <div class="col-sm-6">
+  <div class="row">
+    <h6>Time Zones</h6>
+  </div>
+  </div>
+</div>
+<div class="middle row col-sm-12">
+  <div class="side col-sm-3">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="main col-sm-9">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<div class="footer row col-sm-12">
+  <app-footer></app-footer>
+</div>
+</div>
